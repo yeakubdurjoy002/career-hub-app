@@ -28,10 +28,16 @@ const Footer = () => {
         <a className="link link-hover">Integrations</a>
       </nav>
       <nav>
-        <h6 className="footer-title">Legal</h6>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
+        <h6 className="footer-title">Support</h6>
+        <a className="link link-hover">Help Desk</a>
+        <a className="link link-hover">Sales</a>
+        <a className="link link-hover">Become a Partner</a>
+        <a className="link link-hover">Developers</a>
+      </nav>
+      <nav>
+        <h6 className="footer-title">Contact</h6>
+        <a className="link link-hover">524 Broadway , NYC</a>
+        <a className="link link-hover">+1 777 - 978 - 5570</a>
       </nav>
     </footer>
   );
