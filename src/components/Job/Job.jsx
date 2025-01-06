@@ -35,7 +35,9 @@ const Job = ({ job }) => {
           </p>
         </div>
         <div className="card-actions ">
-          <button className="btn btn-primary">View Details</button>
+          <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+            View Details
+          </button>
         </div>
       </div>
     </div>

@@ -48,13 +48,15 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-primary text-xl">CareerHub</a>
+        <a className="btn text-black font-extrabold text-xl">CareerHub</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary ">Start Applying</a>
+        <a className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] ">
+          Start Applying
+        </a>
       </div>
     </div>
   );
